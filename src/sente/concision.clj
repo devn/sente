@@ -1,4 +1,6 @@
-(ns sente.concision)
+(ns ^{:doc "Convenience functions macros to make specific code
+            situations more concise."}
+  sente.concision)
 
 (defmacro let-map
   "Cleans up the map destructuring let forms for cases
